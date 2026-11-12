@@ -1,0 +1,30 @@
+{
+  "name": "emergency-sydney",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harrison529/emergency-Sydney.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/harrison529/emergency-Sydney/issues"
+  },
+  "homepage": "https://github.com/harrison529/emergency-Sydney#readme",
+  "dependencies": {
+    "express": "^5.3.0",
+    "three": "^0.187.0",
+    "ws": "^8.22.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.0"
+  }
+}
